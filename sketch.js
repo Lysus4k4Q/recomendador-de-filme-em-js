@@ -51,16 +51,16 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
             return "O menino que descobriu o vento";
         } else {
           if(idade >= 12) {
-            if(gostaDeFantasia || gostaDeAventura){
-              return "Homen-aranha: no aranhaverso"              
-            } else {                       
-            return "Ladrões de bicicleta"
-            }
-            } else {
-            if(gostaDeFantasia){
-                return "As aventuras de Pi";
-            } else {
-                return "Depois da chuva";
+              if(gostaDeFantasia || gostaDeAventura){
+                    return "Homen-aranha: no aranhaverso"              
+                  } else {                       
+                          return "Ladrões de bicicleta"
+                          }
+                            } else {
+                                  if(gostaDeFantasia){
+                                    return "As aventuras de Pi";
+                                    } else {
+                                          return "Depois da chuva";
             }
           }
         }
